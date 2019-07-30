@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pam.schoolify.fragment.TaskDetailFragment">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:textSize="@dimen/task_title_size" />
+
+    <TextView
+        android:id="@+id/textViewTypeHeader"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewTitle"
+        android:layout_margin="@dimen/margin_medium"
+        android:text="@string/field_task_type" />
+
+    <View
+        android:id="@+id/viewTypeColor"
+        android:layout_width="@dimen/item_color"
+        android:layout_height="@dimen/item_color"
+        android:layout_alignBottom="@+id/textViewType"
+        android:layout_marginEnd="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_toEndOf="@+id/textViewTypeHeader"
+        android:layout_toRightOf="@+id/textViewTypeHeader" />
+
+    <TextView
+        android:id="@+id/textViewType"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewTypeHeader"
+        android:layout_toEndOf="@+id/viewTypeColor"
+        android:layout_toRightOf="@+id/viewTypeColor"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/textViewDateHeader"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewTypeHeader"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:text="@string/field_task_date" />
+
+    <TextView
+        android:id="@+id/textViewDate"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewDateHeader"
+        android:layout_toEndOf="@+id/textViewDateHeader"
+        android:layout_toRightOf="@+id/textViewDateHeader"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/textViewTimeHeader"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewDateHeader"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:layout_marginEnd="@dimen/margin_medium"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:text="@string/field_task_time" />
+
+    <TextView
+        android:id="@+id/textViewTime"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewTimeHeader"
+        android:layout_toEndOf="@+id/textViewTimeHeader"
+        android:layout_toRightOf="@+id/textViewTimeHeader"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/textViewDescriptionHeader"
+        style="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewTimeHeader"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:text="@string/field_task_description" />
+
+    <TextView
+        android:id="@+id/textViewDescription"
+        style="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textViewDescriptionHeader"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:fadeScrollbars="false"
+        android:scrollbars="vertical"
+        android:textIsSelectable="true" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/floatingActionButtonMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin_menu"
+        app:menu_colorNormal="@color/colorPrimary"
+        app:menu_colorPressed="@color/colorPrimaryDark"
+        app:menu_colorRipple="@color/colorPrimaryLight"
+        app:menu_icon="@drawable/ic_edit_white"
+        app:menu_labels_ellipsize="start"
+        app:menu_labels_singleLine="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floatingActionButtonEditTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_edit_white"
+            app:fab_label="@string/action_edit_task"
+            app:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/floatingActionButtonRemoveTask"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_delete_forever_white"
+            app:fab_label="@string/action_remove_task"
+            app:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

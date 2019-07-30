@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navCalender"
+            android:icon="@drawable/ic_menu_calender"
+            android:title="@string/nav_calender" />
+        <item
+            android:id="@+id/navFutureTasks"
+            android:icon="@drawable/ic_menu_future_tasks"
+            android:title="@string/nav_future_tasks" />
+        <item
+            android:id="@+id/navProfile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="@string/nav_profile" />
+    </group>
+
+    <item android:title="@string/nav_other">
+        <menu>
+            <item
+                android:id="@+id/navAboutUs"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/navSettings"
+                android:title="@string/nav_settings" />
+            <item
+                android:id="@+id/navLogout"
+                android:title="@string/action_sign_out" />
+        </menu>
+    </item>
+
+</menu>

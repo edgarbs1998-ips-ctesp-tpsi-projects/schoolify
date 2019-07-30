@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General -->
+    <string name="about_us">Este projeto foi desenvolvido por Edgar Santos, Mariana Miranda e Rodolfo Costa, no âmbito da disciplina de Programação de Aplicações Móveis e tem como objetivo facilitar aos alunos a visualização dos seus eventos escolares tais como testes, apresentações, aulas, entre outros.\n\nEsta aplicação permite ao utilizador adicionar eventos de um determinado tipo no dia e hora especificado, permitindo ainda receber alertas dos eventos futuros.</string>
+
+    <string name="profile_avatar">Imagem Perfil</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_login">Iniciar Sessão</string>
+    <string name="title_activity_register">Registar</string>
+    <string name="title_activity_about_us">Sobre Nós</string>
+    <string name="title_activity_add_task">Adicionar Tarefa</string>
+    <string name="title_activity_add_task_type">Adicionar Tipo de Tarefa</string>
+    <string name="title_activity_task_list">Tarefas</string>
+    <string name="title_activity_task_detail">Detalhe da Tarefa</string>
+    <string name="title_activity_edit_task">Editar Tarefa</string>
+    <string name="title_activity_change_password">Alterar Password</string>
+    <string name="title_activity_edit_task_type">Editar Tipo de Tarefa</string>
+    <string name="title_activity_settings">Definições</string>
+
+    <!-- Navigation Menu -->
+    <string name="nav_calender">Calendário</string>
+    <string name="nav_about_us">Sobre Nós</string>
+    <string name="nav_other">Outros</string>
+    <string name="nav_future_tasks">Tarefas Futuras</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_settings">Definições</string>
+
+    <string name="navigation_drawer_open">Abrir menu de navegação</string>
+    <string name="navigation_drawer_close">Fechar menu de navegação</string>
+
+    <!-- Actions -->
+    <string name="action_sign_out">Terminar sessão</string>
+    <string name="action_sign_in">Iniciar sessão</string>
+    <string name="action_register">Registar</string>
+    <string name="action_add_task">Adicionar tarefa</string>
+    <string name="action_add_task_type">Adicionar tipo de tarefa</string>
+    <string name="action_remove_task_type">Remover tipo de tarefa</string>
+    <string name="action_update_profile">Atualizar perfil</string>
+    <string name="action_change_password">Alterar password</string>
+    <string name="action_remove_user">Remover utilizador</string>
+    <string name="action_edit_task">Editar tarefa</string>
+    <string name="action_edit_task_type">Editar tipo de tarefa</string>
+    <string name="action_remove_task">Remover tarefa</string>
+    <string name="action_change_gravatar">(Primir para mudar Gravatar)</string>
+
+    <!-- Form Fields -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_name">Nome</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirmar Password</string>
+    <string name="prompt_title">Título</string>
+    <string name="prompt_type">Tipo</string>
+    <string name="prompt_date">Data</string>
+    <string name="prompt_time">Hora</string>
+    <string name="prompt_description">Descrição</string>
+    <string name="prompt_color">Cor</string>
+
+    <!-- Detail Fields -->
+    <string name="field_task_type">Tipo:</string>
+    <string name="field_task_date">Data:</string>
+    <string name="field_task_time">Hora:</string>
+    <string name="field_task_description">Descrição:</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_email">Este endereço de email não é válido</string>
+    <string name="error_same_email">Este endereço de email já esta registado</string>
+    <string name="error_invalid_password">A password deve ter no mínimo 6 caracteres e conter um dígito, uma letra maiúscula e uma letra minúscula</string>
+    <string name="error_incorrect_credentials">O email/password inserido está incorreto</string>
+    <string name="error_invalid_confirm_password">As password não combinam</string>
+    <string name="error_field_required">Este campo é obrigatório</string>
+    <string name="error_create_user">Erro ao registar utilizador, por favor tente novamente!</string>
+    <string name="error_same_task_type">Este tipo de tarefa já existe</string>
+    <string name="error_create_task_type">Erro ao adicionar tipo de tarefa, por favor tente novamente!</string>
+    <string name="error_remove_task_type">Erro ao remover tipo de tarefa, por favor tente novamente!</string>
+    <string name="error_task_type_required">O tipo é necessário. Para criar novos tipos pressione o botão mais.</string>
+    <string name="error_create_task">Erro ao adicionar tarefa, por favor tente novamente!</string>
+    <string name="error_update_profile">Erro ao atualizar o perfil, por favor tente novamente!</string>
+    <string name="error_change_password">Erro ao alterar a password, por favor tente novamente!</string>
+    <string name="error_remove_user">Erro ao remover o utilizador atual, por favor tente novamente!</string>
+    <string name="error_remove_task">Erro ao remover a tarefa, por favor tente novamente!</string>
+    <string name="error_edit_task">Erro ao editar a tarefa, por favor tente novamente!</string>
+    <string name="error_edit_task_type">Erro ao editar este tipo de tarefa, por favor tente novamente!</string>
+
+    <!-- Success Messages -->
+    <string name="success_create_user">Utilizador registado com sucesso! Por favor inicie sessão agora....</string>
+    <string name="success_create_task_type">Tipo de tarefa registado com sucesso!</string>
+    <string name="success_remove_task_type">Tipo de tarefa removido com sucesso!</string>
+    <string name="success_create_task">Tarefa registada com sucesso!</string>
+    <string name="success_update_profile">Perfil de utilizador atualizado com sucesso!</string>
+    <string name="success_change_password">Password alterada com sucesso!</string>
+    <string name="success_remove_user">Utilizador removido com sucesso!</string>
+    <string name="success_remove_task">Tarefa removida com sucesso!</string>
+    <string name="success_edit_task">Tarefa editada com sucesso!</string>
+    <string name="success_edit_task_type">Tipo de tarefa editada com sucesso!</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm_sign_out">Tem acerteza que pretende terminar sessão?</string>
+    <string name="dialog_confirm_remove_task_type">Tem certeza de que deseja remover este tipo de tarefa?\n\nNota: Todas as tarefas associadas a este tipo também serão removidas.</string>
+    <string name="dialog_confirm_remove_user">Tem acerteza que pretende remover o utilizador atual?</string>
+    <string name="dialog_confirm_remove_task">Tem acerteza que pretende remover esta tarefa?</string>
+
+    <!-- Material Calendar -->
+    <string name="material_calendar_monday">S</string>
+    <string name="material_calendar_tuesday">T</string>
+    <string name="material_calendar_wednesday">Q</string>
+    <string name="material_calendar_thursday">Q</string>
+    <string name="material_calendar_friday">S</string>
+    <string name="material_calendar_saturday">S</string>
+    <string name="material_calendar_sunday">D</string>
+
+    <array name="material_calendar_months_array">
+        <item>Janeiro</item>
+        <item>Fevereiro</item>
+        <item>Março</item>
+        <item>Abril</item>
+        <item>Maio</item>
+        <item>Junho</item>
+        <item>Julho</item>
+        <item>Agosto</item>
+        <item>Setembro</item>
+        <item>Outubro</item>
+        <item>Novembro</item>
+        <item>Dezembro</item>
+    </array>
+
+    <string name="material_calendar_today_button">Hoje</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancelar</string>
+
+    <!-- Notifications Channels -->
+    <string name="notifications_channel_future_tasks_title">Tarefas futuras</string>
+    <string name="notifications_channel_future_tasks_description">Lembrete de tarefas futuras</string>
+
+    <!-- Notifications Settings -->
+    <string name="pref_header_notifications">Notificações</string>
+
+    <string name="pref_title_future_tasks_notifications">Notificações de tarefas fututas</string>
+    <string name="pref_description_tasks_notifications">Habilite esta opção para poder receber notificações de tarefas futuras</string>
+
+    <string name="pref_title_reminder_time">Hora do lembrete</string>
+    <string-array name="pref_reminder_time_titles">
+        <item>15 minutos</item>
+        <item>30 minutos</item>
+        <item>1 hora</item>
+        <item>3 horas</item>
+        <item>6 horas</item>
+        <item>12 horas</item>
+        <item>1 dia</item>
+        <item>3 dias</item>
+    </string-array>
+    <string-array name="pref_reminder_time_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>4320</item>
+    </string-array>
+
+    <string name="pref_title_ringtone">Toque</string>
+    <string name="pref_ringtone_silent">Silêncio</string>
+
+    <string name="pref_title_vibrate">Vibração</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pam.schoolify.fragment.CalendarFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.applandeo.materialcalendarview.CalendarView
+            android:id="@+id/calendarViewTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:datePicker="false"
+            app:headerColor="@color/colorPrimary"
+            app:selectionColor="@color/colorAccent"
+            app:todayLabelColor="@color/colorPrimaryLight">
+
+        </com.applandeo.materialcalendarview.CalendarView>
+    </ScrollView>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/floatingActionButtonAddTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin_menu"
+        android:src="@drawable/ic_add_white"
+        app:fab_colorNormal="@color/colorPrimary"
+        app:fab_colorPressed="@color/colorPrimaryDark"
+        app:fab_colorRipple="@color/colorPrimaryLight"
+        app:fab_size="normal" />
+
+</FrameLayout>

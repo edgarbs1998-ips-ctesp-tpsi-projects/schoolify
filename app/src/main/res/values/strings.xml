@@ -1,0 +1,168 @@
+<resources>
+    <!-- General -->
+    <string name="app_name" translatable="false">Schoolify</string>
+
+    <string name="about_us">This project has been developed by Edgar Santos, Mariana Miranda and Rodolfo Costa, within the scope of the Mobile Applications Programming subject and aims to facilitate students to view their school events such as tests, presentations, classes, among others.This application allows the user to add events of a certain type at the specified day and time, as well as allowing to receive alerts of future events.</string>
+
+    <string name="profile_avatar">Avatar</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_login">Sign In</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_add_task">Add Task</string>
+    <string name="title_activity_add_task_type">Add Task Type</string>
+    <string name="title_activity_task_list">Tasks</string>
+    <string name="title_activity_task_detail">Task Detail</string>
+    <string name="title_activity_edit_task">Edit Task</string>
+    <string name="title_activity_change_password">Change User Password</string>
+    <string name="title_activity_edit_task_type">Edit Task Type</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Navigation Menu -->
+    <string name="nav_calender">Calender</string>
+    <string name="nav_about_us">About Us</string>
+    <string name="nav_other">Other</string>
+    <string name="nav_future_tasks">Future Tasks</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Actions -->
+    <string name="action_sign_out">Sign out</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_add_task">Add task</string>
+    <string name="action_add_task_type">Add task type</string>
+    <string name="action_remove_task_type">Remove task type</string>
+    <string name="action_update_profile">Update profile</string>
+    <string name="action_change_password">Change password</string>
+    <string name="action_remove_user">Remove user</string>
+    <string name="action_edit_task">Edit task</string>
+    <string name="action_edit_task_type">Edit task type</string>
+    <string name="action_remove_task">Remove task</string>
+    <string name="action_change_gravatar">(Press to change Gravatar)</string>
+
+    <!-- Form Fields -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_name">Name</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+    <string name="prompt_title">Title</string>
+    <string name="prompt_type">Type</string>
+    <string name="prompt_date">Date</string>
+    <string name="prompt_time">Time</string>
+    <string name="prompt_description">Description</string>
+    <string name="prompt_color">Color</string>
+
+    <!-- Detail Fields -->
+    <string name="field_task_type">Type:</string>
+    <string name="field_task_date">Date:</string>
+    <string name="field_task_time">Time:</string>
+    <string name="field_task_description">Description:</string>
+
+    <!-- Error Messages -->
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_same_email">This email is already registered</string>
+    <string name="error_invalid_password">The password must be at least 6 characters long and contain one digit, one upper case letter and one lower case letter</string>
+    <string name="error_incorrect_credentials">The entered email/password is incorrect</string>
+    <string name="error_invalid_confirm_password">The passwords do not match</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_create_user">Failed to register user, please try again!</string>
+    <string name="error_same_task_type">This type is already exists</string>
+    <string name="error_create_task_type">Failed to add task type, please try again!</string>
+    <string name="error_remove_task_type">Failed to remove task type, please try again!</string>
+    <string name="error_task_type_required">Type is required. You may create new types pressing plus button.</string>
+    <string name="error_create_task">Failed to add task, please try again!</string>
+    <string name="error_update_profile">Failed to update user profile, please try again!</string>
+    <string name="error_change_password">Failed to change user password, please try again!</string>
+    <string name="error_remove_user">Failed to remove current user, please try again!</string>
+    <string name="error_remove_task">Failed to remove this task, please try again!</string>
+    <string name="error_edit_task">Failed to edit this task, please try again!</string>
+    <string name="error_edit_task_type">Failed to edit this task type, please try again!</string>
+
+    <!-- Success Messages -->
+    <string name="success_create_user">User registered with success! Please login now…</string>
+    <string name="success_create_task_type">Task type registered with success!</string>
+    <string name="success_remove_task_type">Task type removed with success!</string>
+    <string name="success_create_task">Task registered with success!</string>
+    <string name="success_update_profile">User profile updated with success!</string>
+    <string name="success_change_password">User password changed with success!</string>
+    <string name="success_remove_user">User removed with success!</string>
+    <string name="success_remove_task">Task removed with success!</string>
+    <string name="success_edit_task">Task edited with success!</string>
+    <string name="success_edit_task_type">Task type edited with success!</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_confirm_sign_out">Are you sure you want to sign out?</string>
+    <string name="dialog_confirm_remove_task_type">Are you sure you want to remove this task type?\n\nNote: Every task associated to this type will also be removed.</string>
+    <string name="dialog_confirm_remove_user">Are you sure you want to remove current user?</string>
+    <string name="dialog_confirm_remove_task">Are you sure you want to remove this task?</string>
+
+    <!-- Material Calendar -->
+    <string name="material_calendar_monday">M</string>
+    <string name="material_calendar_tuesday">T</string>
+    <string name="material_calendar_wednesday">W</string>
+    <string name="material_calendar_thursday">T</string>
+    <string name="material_calendar_friday">F</string>
+    <string name="material_calendar_saturday">S</string>
+    <string name="material_calendar_sunday">S</string>
+
+    <array name="material_calendar_months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+
+    <string name="material_calendar_today_button">Today</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancel</string>
+
+    <!-- Notifications Channels -->
+    <string name="notifications_channel_future_tasks_title">Future tasks</string>
+    <string name="notifications_channel_future_tasks_description">Reminders of future tasks</string>
+
+    <!-- Notifications Settings -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_future_tasks_notifications">Future tasks notifications</string>
+    <string name="pref_description_tasks_notifications">Enable this to receive reminders of your future tasks</string>
+
+    <string name="pref_title_reminder_time">Reminder time</string>
+    <string-array name="pref_reminder_time_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>12 hours</item>
+        <item>1 day</item>
+        <item>3 days</item>
+    </string-array>
+    <string-array name="pref_reminder_time_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>4320</item>
+    </string-array>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>
